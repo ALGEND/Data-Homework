@@ -59,5 +59,5 @@ with open("/Users/algend/Data-Homework/Data-Homework/PyPoll/Analysis.txt", mode 
     output_file.write(f" ----------------------------------------------\r\n")
     for i in range(len(final_winner)):
         output_file.write(f"{final_winner[i][0]}: {final_winner[i][1]}% ({final_winner[i][2]})\r\n")
-        output_file.write(f" Winner: {final_winner[0][0]}\r\n")
+    output_file.write(f" Winner: {final_winner[0][0]}\r\n")
     
